@@ -18,8 +18,17 @@ window.addEventListener('scroll', (event)=>{
     }
 });
 
-// window.scrollTo({
-//     top: 1000,
-//     left: 0,
-//     behavior: "smooth"
-// });
+ document.getElementById("KevindBtn").addEventListener("click", function(){
+    window.scrollTo({
+        top: 1700,
+        left: 0,
+        behavior: 'smooth'
+    })
+ });
+ document.getElementById("MitchellBtn").addEventListener("click", function(){
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    })
+ });
