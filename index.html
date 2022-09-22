@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitch</title>
     <link rel="stylesheet" href="CSS/styleIndex.css">
+    
 </head>
 <body>
-    <header class="headerPrincipal">
-        <div class="logoHeader"><img src="Recursos/Logo.png" alt="LogoMitch"></div>
-        <div class="navbar"><a href="">MITCHELL</a> <a href="">KEVIND</a> <a href="">PROJECTS</a> <a href="">CONTACT</a></div>
+    <header>
+        <div  class="headerPrincipal">
+            <div class="logoHeader"><img src="Recursos/Logo.png" alt="LogoMitch"></div>
+            <div class="navbar"><a href="">MITCHELL</a> <a onclick="scrollWin()" href="">KEVIND</a> <a href="">PROJECTS</a> <a href="">CONTACT</a></div>
+        </div>
+       
     </header>
     <main>
         <div id="mitchell">
@@ -100,7 +104,94 @@
                 </div>
             </div>
         </div>
-        <div id="kevind"></div>
+        <div id="kevind">
+            <div class="fotoMit">
+                <img src="Recursos/Intro Mitchell.png" alt="FotoMitchell">
+            </div>
+            <div class="infoMit">
+                <div class="saludoRedes">
+                    <div class="saludo">
+                        <h3>Hola, soy <span class="blueLetter">Kevind</span></h3>
+                    </div>
+                    <div class="redes">
+                        <div class="insta"><img src="Recursos/instagramLogo.png" alt="Instagram" style="cursor: pointer;"></div>
+                        <div class="twitter"> <img src="Recursos/TwitterLogo.png" alt="Twitter" style="cursor: pointer;"></div>
+                        <div class="WhatsApp"><img src="Recursos/WhatsAppLogo.png" alt="WhatsApp" style="cursor: pointer;"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <h1 class="title">Ingeniero Multimedia</h1>
+                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                       Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
+                </div>
+                <div class="skills">
+                    <div class="padreSkillsInfo">
+                        <div class="logoSkill">
+                            <img class="HTML" src="Recursos/HtmlLogo.png" alt="HTML">
+                        </div>
+                        <div class="skillPercentage">
+                            <div class="porcentajeName">
+                                <div class="skillName"><p>HTML</p></div>
+                                <div class="porcentaje">90%</div>
+                            </div>
+                            <div class="barra"><input id="barraID" type="range" value="90" disabled style="background: linear-gradient(to right, #3BCCFF 0%, #3BCCFF 90%, #004861 90%, #004861 100%)"></div>
+                        </div>
+                    </div>
+                    <div class="padreSkillsInfo">
+                        <div class="logoSkill">
+                            <img src="Recursos/CSSLogo.png" alt="CSS">
+                        </div>
+                        <div class="skillPercentage">
+                            <div class="porcentajeName">
+                                <div class="skillName"><p>CSS</p></div>
+                                <div class="porcentaje">80%</div>
+                            </div>
+                            <div class="barra"><input id="barraID" type="range" value="80" disabled style="background: linear-gradient(to right, #3BCCFF 0%, #3BCCFF 80%, #004861 80%, #004861 100%)"></div>
+                        </div>
+                    </div>
+                    <div class="padreSkillsInfo">
+                        <div class="logoSkill">
+                            <img src="Recursos/JavascriptLogo.png" alt="JavaScript">
+                        </div>
+                        <div class="skillPercentage">
+                            <div class="porcentajeName">
+                                <div class="skillName"><p>JavaScript</p></div>
+                                <div class="porcentaje">60%</div>
+                            </div>
+                            <div class="barra"><input id="barraID" type="range" value="60" disabled style="background: linear-gradient(to right, #3BCCFF 0%, #3BCCFF 60%, #004861 60%, #004861 100%)"></div>
+                        </div>
+                    </div>
+                    <div class="padreSkillsInfo">
+                        <div class="logoSkill">
+                            <img src="Recursos/SFLogo.png" alt="SF">
+                        </div>
+                        <div class="skillPercentage">
+                            <div class="porcentajeName">
+                                <div class="skillName"><p>Salesforce</p></div>
+                                <div class="porcentaje">95%</div>
+                            </div>
+                            <div class="barra"><input id="barraID" type="range" value="95" disabled style="background: linear-gradient(to right, #3BCCFF 0%, #3BCCFF 95%, #004861 95%, #004861 100%)"></div>
+                        </div>
+                    </div>
+                    <div class="padreSkillsInfo">
+                        <div class="logoSkill">
+                            <img src="Recursos/UnityLogo.png" alt="cSharp">
+                        </div>
+                        <div class="skillPercentage">
+                            <div class="porcentajeName">
+                                <div class="skillName"><p>Unity 3D</p></div>
+                                <div class="porcentaje">95%</div>
+                            </div>
+                            <div class="barra"><input id="barraID" type="range" value="95" disabled style="background: linear-gradient(to right, #3BCCFF 0%, #3BCCFF 95%, #004861 95%, #004861 100%)"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trailhead">
+                    <h1>Visita mi perfil</h1> <div class="botonTrailhead"><img src="Recursos/trailHeadLogo.png" alt="TrailHeadLogo"><h1>trailhead</h1></div> 
+                </div>
+            </div>
+        </div>
     </main>
+    <script src="Javascript/index.js"></script>t
 </body>
 </html>

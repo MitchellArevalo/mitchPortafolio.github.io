@@ -8,16 +8,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #161616;
     font-family: 'Amiko';
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 .headerPrincipal{
     display: flex;
     height: 100px;
     width: 100%;
+    background-color: #161616;
+    position: fixed;
+    top: -1px;
+    z-index: 99;
 }
 .logoHeader{
     margin-left: 10%;
@@ -47,6 +53,8 @@ body{
     display: flex;
     width: 100%;
     height:calc(100vh - 100px);
+    margin-top: 100px;
+    
 }
 .fotoMit{
     display: flex;
@@ -183,5 +191,23 @@ body{
 .botonTrailhead h1{
     margin: 0 0 0 2rem;
     font-weight: bolder;
-    /* text-shadow: 2px 1px 2px black; */
 }
+#kevind{
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 8rem;
+    padding-left: 5rem;
+}
+@keyframes kevindanimation {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
