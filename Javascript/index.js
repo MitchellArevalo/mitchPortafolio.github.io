@@ -21,7 +21,9 @@ window.addEventListener('scroll', (event)=>{
 
  document.getElementById("KevindBtn").addEventListener("click", function(){
 
-    var heightDivMitchell = document.getElementById("mitchell").clientHeight + 200;    
+    var heightDivMitchell = document.getElementById("mitchell").clientHeight + 200;
+
+    console.log(heightDivMitchell);
 
     window.scrollTo({
         top: heightDivMitchell,
